@@ -1,0 +1,97 @@
+body {
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#survey-form {
+  margin: 30px 10%;
+  padding: 40px 40px;
+  border-radius: 8px;
+  background-color: rgba(57, 45, 110, 0.5);
+  font-family: Garamond, Helvetica, sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 20px;
+  min-width: 70%;
+}
+
+#title {
+  text-align: center;
+  font-family: Garamond, Helvetica, sans-serif;
+  font-variant: small-caps;
+  font-weight: 900;
+  font-size: 50px;
+  margin: 0 10%;
+  margin-top: 40px;
+}
+
+#description {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  margin: 0 10%;
+  margin-top: 20px;
+}
+
+#name {
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  margin: 5px;
+}
+
+#email {
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  margin: 5px;
+}
+
+#number {
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  margin: 5px;
+}
+
+#dropdown {
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  margin: 5px;
+}
+
+textarea {
+  border-radius: 5px;
+  height: 120px;
+  width: 100%;
+  margin: 5px;
+}
+
+#submit {
+  background-color: #392d6e;
+  border-style: solid;
+  border-color: black;
+  color: white;
+  font-family: Garamond, Helvetica, sans-serif;
+  font-variant: small-caps;
+  font-weight: 800;
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+}
+
+.radio {
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+}

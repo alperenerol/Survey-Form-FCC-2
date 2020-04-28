@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form FCC #2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="main">
+        <h1 id="title">Survey Form</h1>
+        <p id="description"> Thank you for taking the time to help us improve the platform</p>
+        <form id="survey-form">
+            <div>
+                <label id="name-label" for="name">Name</label>
+                <br>
+				<input type="text" id="name" required placeholder="Enter your name">
+			</div>
+			<br>
+			<div>
+                <label id="email-label" for="email">Email</label>
+                <br>
+				<input type="email" id="email" required placeholder="Enter your Email">
+            </div>
+            <br>
+            <div>
+                <label id="number-label" for="number">Age(Optional)</label>
+                <br>
+				<input type="number" id="number" min="6" max="120" placeholder="Enter your age">
+            </div>
+            <br>
+            <div>
+				<label>Which option best describes your current role? </label>
+                <br>
+                <select id="dropdown">
+					<option value="student">Student</option>
+					<option value="fullJob">Full-time Job</option>
+                    <option value="fullLearn">Full-time Learner</option>
+                    <option value="notToSay">Prefer not to say</option>
+                    <option value="other">Other</option>
+				</select>
+            </div>
+            <br>
+            <div>
+                <label>Would you recommend this website to a friend?</label><br>
+                <input type="radio" class="radio" id="definitely" value="recommend" name="recommend" required>
+                <label for="definitely">Definitely!</label><br>
+                <input type="radio" class="radio"  id="maybe" value="definitely" name="recommend"> 
+                <label for="maybe">Maybe</label><br>
+                <input type="radio" class="radio"  id="notSure" value="notSure" name="recommend">
+                <label for="notSure">Not sure</label>
+            </div>
+            <br>
+            <div>
+                <label>What would you like to see improved?</label>
+                <br>
+                <input type="checkbox" class="checkbox" id="improvement1" name="improvement1"value="frontendProj">
+                <label for="improvement1"> Front-end Projects</label>
+                <br>
+                <input type="checkbox" class="checkbox"  id="improvement2" name="improvement2" value="backendProj">
+                <label for="improvement2"> Back-end Projects</label>
+                <br>
+                <input type="checkbox" class="checkbox"  id="improvement3" name="improvement3" value="dataVisual">
+                <label for="improvement3"> Data Visualization</label>
+                <br>
+                <input type="checkbox" class="checkbox"  id="improvement4" name="improvement4" value="challenges">
+                <label for="improvement4"> Challenges</label>
+                <br>
+                <input type="checkbox" class="checkbox"  id="improvement5" name="improvement5" value="openSource">
+                <label for="improvement5"> Open Source Community</label>
+                <br>
+                <input type="checkbox" class="checkbox"  id="improvement6" name="improvement6" value="perfect">
+                <label for="improvement6"> Nothing </label>
+                
+            </div>	
+            <br>
+            <div>
+                <label>Any comments or suggestions?</label>
+                <br>
+                <textarea name="message" placeholder="Your message"></textarea>
+            </div>
+            <br>            
+            <input id="submit" type="submit" value="SUBMIT">            		
+        </form>
+    
+    </div>        
+</body>
+<p>
+    <cite id="cite"> Created by Alperen Erol in 2020</cite> 
+</p>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
